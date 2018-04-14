@@ -12,8 +12,8 @@ This document describes the structure of engine output.
 
 ## Proposal
 The output of each engine should is an array. Each item of array is described by:
-path - The path relative to the analysis root
-messages - List of messages in the path
+-’path’ - The path relative to the analysis root
+-’messages’ - List of messages in the path
 
 ## Messages
 Messages is an array. Each item is a message. Message is a JSON Schema object with the following properties:
