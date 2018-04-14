@@ -16,7 +16,7 @@ The output of each engine should is an array. Each item of array is described by
 - `messages` - List of messages in the path
 
 ## Messages
-Messages is an array. Each item is a message. Message is a JSON Schema object with the following properties:
+Messages is an array. Each item is a `message`. `message` is a JSON Schema object with the following properties:
 
 | Property    | Type     | Required | Description |
 | -           | :-:      | :-:      | -           |
