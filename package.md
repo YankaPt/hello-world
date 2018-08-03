@@ -13,6 +13,17 @@ Package meta-information
 |url|[urls](urls)|-|The package homepage (website, online documentation or repository)|
 |license|[license](./collection.md#license)|+|The package license|
 |license-text|string|-|The package license text|
+### urls
+The URL or collection of URLs
+### url:complex
+The URL in one of acceptable formats
+### url:typed
+The URL with type specified
+
+|Key|Type|Required|Description|
+|-|:-:|:-:|-|
+|url|[url:uri](url:uri)|+|The URL in URI format|
+|type|[url:type](url:type)|-|The type of url|
 ## Example
 ```
 {
