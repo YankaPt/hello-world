@@ -10,30 +10,24 @@ Package meta-information
 |name|string|+|The original name of the package|
 |version|string|-|The package version in a format it was originally specified|
 |description|string|-|The textual description of the package|
-|url|[urls](urls)|-|The package homepage (website, online documentation or repository)|
+|url|[urls](#urls)|-|The package homepage (website, online documentation or repository)|
 |license|[license](./collection.md#license)|+|The package license|
 |license-text|string|-|The package license text|
 ### urls
 The URL or collection of URLs
 
-|Key|Type|Required|Description|
-|-|:-:|:-:|-|
-|0|[url:complex](url:complex)|-|undefined|
-|1|[url:complex](#url:complex)[]|-|undefined|
+Acceptable types: url:complex ,url:complex[]
 ### url:complex
 The URL in one of acceptable formats
 
-|Key|Type|Required|Description|
-|-|:-:|:-:|-|
-|0|[url:uri](url:uri)|-|undefined|
-|1|[url:typed](url:typed)|-|undefined|
+Acceptable types: url:uri ,url:typed 
 ### url:typed
 The URL with type specified
 
 |Key|Type|Required|Description|
 |-|:-:|:-:|-|
-|url|[url:uri](url:uri)|+|The URL in URI format|
-|type|[url:type](url:type)|-|The type of url|
+|url|[url:uri](#url:uri)|+|The URL in URI format|
+|type|[url:type](#url:type)|-|The type of url|
 ## Example
 ```
 {
