@@ -15,8 +15,18 @@ Package meta-information
 |license-text|string|-|The package license text|
 ### urls
 The URL or collection of URLs
+
+|Key|Type|Required|Description|
+|-|:-:|:-:|-|
+|0|[url:complex](url:complex)|-|undefined|
+|1|[url:complex](#url:complex)[]|-|undefined|
 ### url:complex
 The URL in one of acceptable formats
+
+|Key|Type|Required|Description|
+|-|:-:|:-:|-|
+|0|[url:uri](url:uri)|-|undefined|
+|1|[url:typed](url:typed)|-|undefined|
 ### url:typed
 The URL with type specified
 
